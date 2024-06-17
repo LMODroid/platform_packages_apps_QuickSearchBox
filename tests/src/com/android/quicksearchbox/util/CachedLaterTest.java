@@ -16,9 +16,9 @@
 
 package com.android.quicksearchbox.util;
 
-import com.android.quicksearchbox.ConsumerTrap;
+import androidx.test.filters.SmallTest;
 
-import android.test.suitebuilder.annotation.SmallTest;
+import com.android.quicksearchbox.ConsumerTrap;
 
 import junit.framework.TestCase;
 

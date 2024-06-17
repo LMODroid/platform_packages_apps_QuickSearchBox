@@ -16,11 +16,11 @@
 
 package com.android.quicksearchbox.util;
 
-import android.test.suitebuilder.annotation.MediumTest;
-
-import java.util.concurrent.Executors;
+import androidx.test.filters.MediumTest;
 
 import junit.framework.TestCase;
+
+import java.util.concurrent.Executors;
 
 /**
  * Tests for {@link SingleThreadNamedTaskExecutor}.

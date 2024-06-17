@@ -16,7 +16,7 @@
 
 package com.android.quicksearchbox;
 
-import android.test.suitebuilder.annotation.MediumTest;
+import androidx.test.filters.MediumTest;
 
 /**
  * Tests for {@link CachingIconLoader}.

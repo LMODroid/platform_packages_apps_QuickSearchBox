@@ -16,7 +16,8 @@
 package com.android.quicksearchbox;
 
 import android.test.AndroidTestCase;
-import android.test.suitebuilder.annotation.SmallTest;
+
+import androidx.test.filters.SmallTest;
 
 /**
  * Tests for {@link SuggestionUtils}.

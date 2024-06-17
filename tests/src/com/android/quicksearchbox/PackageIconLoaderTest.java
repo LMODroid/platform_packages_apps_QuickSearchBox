@@ -16,15 +16,16 @@
 
 package com.android.quicksearchbox;
 
+import android.os.Handler;
+import android.os.Looper;
+import android.os.Process;
+
+import androidx.test.filters.MediumTest;
+
 import com.android.quicksearchbox.tests.CrashingIconProvider;
 import com.android.quicksearchbox.util.NamedTaskExecutor;
 import com.android.quicksearchbox.util.PriorityThreadFactory;
 import com.android.quicksearchbox.util.SingleThreadNamedTaskExecutor;
-
-import android.os.Handler;
-import android.os.Looper;
-import android.os.Process;
-import android.test.suitebuilder.annotation.MediumTest;
 
 /**
  * Tests for {@link PackageIconLoader}.

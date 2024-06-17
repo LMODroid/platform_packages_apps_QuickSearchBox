@@ -24,6 +24,7 @@ import com.android.quicksearchbox.SuggestionExtras
 
 abstract class AbstractGoogleSourceResult(source: Source, userQuery: String) : SourceResult {
   private val mSource: Source
+  @Suppress("MUST_BE_INITIALIZED_OR_FINAL_OR_ABSTRACT_WARNING")
   override val userQuery: String
   override var position = 0
   abstract override val count: Int

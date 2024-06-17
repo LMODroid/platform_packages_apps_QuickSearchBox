@@ -16,11 +16,12 @@
 
 package com.android.quicksearchbox.util;
 
+import android.test.AndroidTestCase;
+
+import androidx.test.filters.SmallTest;
+
 import com.android.quicksearchbox.util.LevenshteinDistance.EditOperation;
 import com.android.quicksearchbox.util.LevenshteinDistance.Token;
-
-import android.test.AndroidTestCase;
-import android.test.suitebuilder.annotation.SmallTest;
 
 /**
  * Tests for class {@link LevenshteinDistance}.

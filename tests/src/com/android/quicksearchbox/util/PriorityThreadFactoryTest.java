@@ -18,7 +18,8 @@
 package com.android.quicksearchbox.util;
 
 import android.test.AndroidTestCase;
-import android.test.suitebuilder.annotation.MediumTest;
+
+import androidx.test.filters.MediumTest;
 
 import java.util.concurrent.ThreadFactory;
 

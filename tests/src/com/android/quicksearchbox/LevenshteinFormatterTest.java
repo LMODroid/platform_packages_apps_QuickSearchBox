@@ -16,12 +16,13 @@
 
 package com.android.quicksearchbox;
 
+import android.test.AndroidTestCase;
+import android.text.Spanned;
+
+import androidx.test.filters.SmallTest;
+
 import com.android.quicksearchbox.MockTextAppearanceFactory.MockStyleSpan;
 import com.android.quicksearchbox.util.LevenshteinDistance.Token;
-
-import android.test.AndroidTestCase;
-import android.test.suitebuilder.annotation.SmallTest;
-import android.text.Spanned;
 
 /**
  * Tests for {@link LevenshteinSuggestionFormatter}.
